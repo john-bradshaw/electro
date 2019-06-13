@@ -3,4 +3,4 @@
 # for running the jupyter notebook in Docker
 
 
-PYTHONPATH=/rxn-steps/submodules/GNN:/rxn-steps/:${PYTHONPATH} /opt/conda/envs/py36/bin/jupyter notebook "$@"
+PYTHONPATH=/electro/submodules/GNN:/electro/:${PYTHONPATH} /opt/conda/envs/py36/bin/jupyter notebook "$@"

@@ -1,7 +1,7 @@
 # A Generative Model For Electron Paths
 
 Core code for the paper "A Generative Model For Electron Paths" (https://openreview.net/forum?id=r1x4BnCqKX).
-
+by John Bradshaw, Matt J. Kusner, Brooks Paige, Marwin H. S. Segler, José Miguel Hernández-Lobato.
 
 ## Installation
 
@@ -48,5 +48,6 @@ Examples of ELECTRO-LITE making predictions can be found in:
 
 ### Dockerfile
 These notebooks can also be run using Docker if you prefer. 
-The Docker image can be built using eg `docker build . -t rxn-steps`.
-It can then be run by `docker run -it --rm -p 8080:8080 rxn-steps`
+The Docker image can be built using eg `docker build . -t electro`.
+It can then be run by `docker run -it --rm -p 8080:8080 electro`
+An uploaded Docker image lives at https://hub.docker.com/r/johnbradshaw/electro.1

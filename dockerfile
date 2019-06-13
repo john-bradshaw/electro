@@ -25,9 +25,9 @@ RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 100 \
 RUN /opt/conda/envs/py36/bin/pip install torch-scatter==1.1.1 \
  && /opt/conda/envs/py36/bin/pip install  dataclasses arrow
 
-COPY . /rxn-steps
-RUN unzip  /rxn-steps/lef_uspto.zip -d /rxn-steps
-WORKDIR /rxn-steps/notebooks
+COPY . /electro
+RUN unzip  /electro/lef_uspto.zip -d /electro
+WORKDIR /electro/notebooks
 
 # Jupyter notebook
 EXPOSE 8080
