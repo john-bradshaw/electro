@@ -1,0 +1,3 @@
+[submodule "submodules/GNN"]
+	path = submodules/GNN
+	url = git@github.com:john-bradshaw/GNN.git
