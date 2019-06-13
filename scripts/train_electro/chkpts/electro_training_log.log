@@ -1,0 +1,240 @@
+====================
+Running ELECTRO train script.
+Variant is ELECTRO. Params are: 
+{'electro_lite_flag': False, 'num_epochs': 14, 'initial_lr': 0.001, 'lr_decay_epochs': [8, 12], 'lr_decay_factor': 0.1, 'batch_size_wrt_reactions': 30, 'val_batch_size_wrt_reactions': 100, 'cuda_details': <graph_neural_networks.core.utils.CudaDetails object at 0x7f6d18a6beb8>, 'num_dataloader_workers': 10}
+
+====================
+Starting training...
+
+
+
+==================== Starting epoch 0.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 125.703	Average Loss: 9.9056
+Individual losses: [('add', 2.6297376299049895), ('initial', 3.2379783992151556), ('remove', 1.9624965975320512), ('stop', 2.0754025653924053)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 1.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 107.167	Average Loss: 1.3913
+Individual losses: [('add', 0.2729434278945411), ('initial', 0.6221507276446924), ('remove', 0.15878025408537194), ('stop', 0.33738815059514654)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 2.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 107.517	Average Loss: 1.2327
+Individual losses: [('add', 0.2423184862917854), ('initial', 0.5721855123106788), ('remove', 0.14146738566577308), ('stop', 0.2767301008955474)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 3.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 108.480	Average Loss: 1.1332
+Individual losses: [('add', 0.2251854485279875), ('initial', 0.5573995847703329), ('remove', 0.13593772945101265), ('stop', 0.21464897856000267)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 4.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 109.466	Average Loss: 1.1048
+Individual losses: [('add', 0.2184896403807857), ('initial', 0.5425670152071813), ('remove', 0.13484752939195616), ('stop', 0.20888031331110585)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 5.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 98.744	Average Loss: 1.0794
+Individual losses: [('add', 0.2135358294808394), ('initial', 0.529656569948288), ('remove', 0.13054358213698894), ('stop', 0.20570477901366635)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 6.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 98.704	Average Loss: 1.0711
+Individual losses: [('add', 0.2101836320937133), ('initial', 0.5321356426588765), ('remove', 0.1319867059134497), ('stop', 0.19676669966281043)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 7.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 89.276	Average Loss: 1.0490
+Individual losses: [('add', 0.20879689361436146), ('initial', 0.517746238417326), ('remove', 0.12936565238841813), ('stop', 0.19305067906385778)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 8.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 90.110	Average Loss: 1.0539
+Individual losses: [('add', 0.20809754531547772), ('initial', 0.526889892591435), ('remove', 0.1304113216469845), ('stop', 0.1884717210515927)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 9.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 90.591	Average Loss: 0.9107
+Individual losses: [('add', 0.17291216704383594), ('initial', 0.4565410582068557), ('remove', 0.11632885407429294), ('stop', 0.16494710605075344)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 10.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 89.895	Average Loss: 0.8930
+Individual losses: [('add', 0.1690105592294999), ('initial', 0.44806438406538285), ('remove', 0.11460236851617041), ('stop', 0.16136953374652946)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 11.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 89.246	Average Loss: 0.8847
+Individual losses: [('add', 0.16696453092718247), ('initial', 0.4439063557895186), ('remove', 0.11419226259046074), ('stop', 0.15962496247685545)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 12.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 90.345	Average Loss: 0.8781
+Individual losses: [('add', 0.16606114780114142), ('initial', 0.43998685136507304), ('remove', 0.1139777579496757), ('stop', 0.1581178710294125)]
+
+Train[0m
+
+
+====================
+
+
+
+==================== Starting epoch 13.
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 90.800	Average Loss: 0.8638
+Individual losses: [('add', 0.1634753018428999), ('initial', 0.4316939672243236), ('remove', 0.11261995966883338), ('stop', 0.1559839826030574)]
+
+Train[0m
+
+
+====================
+Final validation:
+
+[4mValidation[0m
+
+
+
+Test: [end]	Time Total: 90.094	Average Loss: 0.8617
+Individual losses: [('add', 0.1630550526354945), ('initial', 0.43076552900860454), ('remove', 0.11235842363988868), ('stop', 0.1555657822659615)]
+Done!
