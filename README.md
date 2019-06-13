@@ -50,4 +50,4 @@ Examples of ELECTRO-LITE making predictions can be found in:
 These notebooks can also be run using Docker if you prefer. 
 The Docker image can be built using eg `docker build . -t electro`.
 It can then be run by `docker run -it --rm -p 8080:8080 electro`
-An uploaded Docker image lives at https://hub.docker.com/r/johnbradshaw/electro.1
+An uploaded Docker image lives at https://hub.docker.com/r/johnbradshaw/electro .
